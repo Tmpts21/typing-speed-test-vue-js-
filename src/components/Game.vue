@@ -29,7 +29,7 @@
 
     <h5 v-if="wpm != 0 " class='text-center'>Congratulations you have  {{ wpm }} words per minute </h5>              
     <div class='text-center'>   
-    <a  v-if="wpm != 0 " class='text-center' href="https://www.wikihow.com/Calculate-Words-Per-Minute" style="border-radius : 80%"> how i calcualte wpm ?  </a>
+    <a  v-if="wpm != 0 " class='text-center' href="https://www.wikihow.com/Calculate-Words-Per-Minute" style="border-radius : 80%">   what is wpm ?  </a> 
     </div>
     <h4 v-if ="game" class='float-right mr-5' style="padding-right :92px">{{ timer }}s</h4>              
     <h4 v-if ="game" class='float-left  ml-5' style="padding-left :92px">difficulty : {{ difficulty }}</h4>                
@@ -65,7 +65,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">My typing stats</h5> 
+        <h5 class="modal-title" id="exampleModalLabel">My words typing stats</h5> 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
           <span aria-hidden="true">&times;</span>
         </button>
