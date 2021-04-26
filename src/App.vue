@@ -1,7 +1,7 @@
 <template>
   <div class='container' id="app"> 
     <div> 
-      <game-component msg="Typing speed test made with vue js"/>
+      <game-component msg="Typing speed test with vue js"/> 
     </div>
   </div>
 </template>
