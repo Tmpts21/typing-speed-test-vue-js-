@@ -1,4 +1,5 @@
 # typeracer
+https://how-fast-you-type.netlify.app/
 
 ## Project setup
 ```
